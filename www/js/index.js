@@ -136,4 +136,5 @@ var createInsertDialog = function () {
  */
 var hideInsertDialog = function () {
   document.getElementById('insert-task').hide();
+  document.getElementById('input_task_title').value = '';
 };
