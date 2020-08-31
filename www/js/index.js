@@ -44,9 +44,9 @@ var dispList = function (data) {
 var getTasks = function () {
 
   $.post('https://www.googleapis.com/oauth2/v4/token', {
-    'refresh_token': [refresh_token], // 変更する
-    'client_id': [client_id],         // 変更する
-    'client_secret': [client_secret], // 変更する
+    'refresh_token': '[refresh_token]', // 変更する
+    'client_id': '[client_id]',         // 変更する
+    'client_secret': '[client_secret]', // 変更する
     'redirect_uri': 'http://localhost:8000/',
     'grant_type': 'refresh_token',
   }, {
