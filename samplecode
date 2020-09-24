@@ -44,7 +44,7 @@ var dispList = function (data) {
 var getTasks = function () {
 
   $.post('https://www.googleapis.com/oauth2/v4/token', {
-    'refresh_token': '1//0eVuEl9SFq3yGCgYIARAAGA4SNwF-L9IrXwjfd0FvFUy_m8i4m_MUNNMddRGHY8mqY8-RwK4sS2Bw4a4pHHA7f7PLz5jKa9OJBKw', // 変更する
+    'refresh_token': 'xxxxxx', // 変更する
     'client_id': '437581889525-s45ra27kiu565qn3oot7h28vp1qfkq51.apps.googleusercontent.com',         // 変更する
     'client_secret': '82wcIj_2acBjBsnyLIPPn9Cp', // 変更する
     /*
