@@ -90,8 +90,10 @@ var insertTask = function () {
     return;
   }
 
+  //何も入力されていない場合
   if(item === ""){
-    hideInsertDialog();
+    
+    hideInsertDialog(); //ダイアログを閉じる
     return;
   }
 
