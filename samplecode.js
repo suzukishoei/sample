@@ -28,7 +28,7 @@ var dispList = function (data) {
   for (var i = 0; i < data.items.length; i++) {
     // アイテムを取得
     var item = data.items[i].title;
-    
+
     // 空の<ons-list-item>を作成
     var elem_list_item = document.createElement('ons-list-item');
     // <ons-list-item>のHTMLにアイテム名を追加
@@ -36,7 +36,6 @@ var dispList = function (data) {
     // <ons-list-item>要素をリストに追加
     elem_list.appendChild(elem_list_item);
   }
-  
 }
 
 /**
