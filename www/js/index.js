@@ -90,6 +90,11 @@ var insertTask = function () {
     return;
   }
 
+  if(item === ""){
+    hideInsertDialog();
+    return;
+  }
+
   var inputTask = {
     'title': item
   }
